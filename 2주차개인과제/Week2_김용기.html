@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        header,
+        footer {
+            background-color: #444;
+            color: #fff;
+        }
+
+        h1, h3{
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            text-align: center;
+        }
+        h1{
+            padding: 30px;
+        }
+        nav {
+            border: 3px solid #fff;
+            text-align: center;
+        }
+
+        ul {
+            background-color: #222;
+            display: inline-block;
+        }
+
+        li {
+            background-color: lightsalmon;
+            float: left;
+        }
+
+        a {
+            padding: 30px;
+            display: inline-block;
+        }
+
+        section,
+        aside {
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        section {
+            background-color: #666;
+            float: left;
+            width: 80%;
+        }
+
+        article {
+            background-color: lightcoral;
+            padding: 30px;
+            margin: 0 auto 20px;
+        }
+
+        aside {
+            background-color: #222;
+            float: right;
+            color: #fff;
+            width: 20%;
+        }
+        /* button태그는 margin으로 안옮겨짐 */
+        .button-wrapper{
+            text-align: center;
+        }
+        .button-wrapper > button{
+            margin: 20px 0;
+            width: 50%;
+        }
+        footer {
+            clear: both;
+        }
+        .clearfix:after {
+            content: ' ';
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>자기소개서 페이지</h1>
+    </header>
+    <nav>
+        <ul class="clearfix">
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">GALLAY</a></li>
+            <li><a href="">PAGES</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <div class="clearfix">
+        <section>
+            <article>article</article>
+            <article>article</article>
+        </section>
+        <aside>
+            <h3>회원가입</h3>
+            <form action="my-app" method="get">
+                <div>
+                    <label for="userid">아이디: </label>
+                    <input type="text" id="userid" name="id" placeholder="아이디를 입력하세요.">
+                </div>
+                <div>
+                    <label for="password">비밀번호: </label>
+                    <input type="password" id="password" name="password" placeholder="비밀번호를 입력하세요.">
+                </div>
+                <div>
+                    <label for="gender">성별: </label>
+                    <select name="gender" id="gender">
+                        <option value="male">남성</option>
+                        <option value="female">여성</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="job">직업: </label>
+                    <select name="job" id="job">
+                        <option value="student">학생</option>
+                        <option value="teacher">선생님</option>
+                        <option value="etc">기타</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="introduce">자기소개: </label>
+                    <textarea name="introduce" id="introduce" placeholder="자기소개를 입력하세요" cols="20" rows="6"></textarea>
+                </div>
+                <div class="button-wrapper">
+                    <button type="submit">제출</button>
+                </div>
+            </form>
+        </aside>
+    </div>
+    <footer>
+        <h1>&copy;BraveKim</h1>
+    </footer>
+</body>
+
+</html>
