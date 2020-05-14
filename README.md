@@ -2,7 +2,7 @@
 ## 팀원 소개
 - IT융합공학과 2학년 김용기
 - 경영학과 3학년 박기홍
-- 생활체육학과 3학년 권주용
+- 생활체육학과 3학년 권주용 [링크](https://syulion8th.github.io/Coding-todayIsMyLaunch/%EA%B6%8C%EC%A3%BC%EC%9A%A9%20%EA%B0%9C%EC%9D%B8%EA%B3%BC%EC%A0%9C/jooyong.html)
 - IT융합공학과 1학년 양유림
 
 [🚩2주차 개인과제 폴더이동](./2주차개인과제)
